@@ -2,7 +2,41 @@
     <head>
         <title> Introduce </title>
     <style>
-        .text-frame1 {border: 2px rgb(168, 117, 58);
+        @media screen {
+            max-width: 400px;
+            {width: 100%;}
+        }
+        @media screen {
+            max-width: 800px;
+        .col-s-1 {width: 8.33%;}
+        .col-s-2 {width: 16.66%;}
+        .col-s-3 {width: 25%;}
+        .col-s-4 {width: 33.33%;}
+        .col-s-5 {width: 41.66%;}
+        .col-s-6 {width: 50%;}
+        .col-s-7 {width: 58.33%;}
+        .col-s-8 {width: 66.66%;}
+        .col-s-9 {width: 75%;}
+        .col-s-10 {width: 83.33%;}
+        .col-s-11 {width: 91.66%;}
+        .col-s-12 {width: 100%;}
+        }
+        @media screen {
+            min-width:768px;
+        .col-1 {width: 8.33%;}
+        .col-2 {width: 16.66%;}
+        .col-3 {width: 25%;}
+        .col-4 {width: 33.33%;}
+        .col-5 {width: 41.66%;}
+        .col-6 {width: 50%;}
+        .col-7 {width: 58.33%;}
+        .col-8 {width: 66.66%;}
+        .col-9 {width: 75%;}
+        .col-10 {width: 83.33%;}
+        .col-11 {width: 91.66%;}
+        .col-12 {width: 100%;}
+        }
+        .text-frame1 {border: 2px rgb(166, 114, 54);
                     padding: 5px;
                     margin: 5px;
                     width: 1225px;
@@ -30,7 +64,6 @@
             vertical-align: middle;
         }
         img {
-            border-radius: 50%;
             border: 2px solid #000;
         }
         .video-container {
@@ -44,11 +77,11 @@
         }
         .image-left {
             float: left;
-            margin-top: 150px;
+            margin-top: 40px;
         }
         .image-right {
             float: right;
-            margin-top: 150px;
+            margin-top: 60px;
         }
         text {
             flex: 1;
@@ -56,53 +89,54 @@
         .clear {
             clear: both;
         }
-        .col-1 {width: 8.33%;}
-        .col-2 {width: 16.66%;}
-        .col-3 {width: 25%;}
-        .col-4 {width: 33.33%;}
-        .col-5 {width: 41.66%;}
-        .col-6 {width: 50%;}
-        .col-7 {width: 58.33%;}
-        .col-8 {width: 66.66%;}
-        .col-9 {width: 75%;}
-        .col-10 {width: 83.33%;}
-        .col-11 {width: 91.66%;}
-        .col-12 {width: 100%;}
     </style>
     </head>
     <body>
-        <center>
-    <div class="col">
+    <center>
         <div class="text-frame1">
             <h2 id="white">Introduce<br>ชื่อ : นายทัตต์ดนัย บุญเอม<br>ชื่อเล่น : แสตมป์<br>CS38TU89</h2>
         </div>
+    </center>
         <div class="image-left">
-            <img src="image/S__3153924.jpg" width="200" alt="image/S__3153924">
+        <div class="col-1 col-s-1">
+        <a href="CSS/myAdvisor.html"><img src="image/Ad.jpg" height="100" width="200" ></a>
+        <br>
+        <a href="CSS/myActivities.html"><img src="image/Ac.jpg" height="100" width="200"></a>
+        <br>
+        <a href="CSS/SparkCamp.html"><img src="image/Sp.jpg" height="100" width="200"></a>
+        <br>
+        <a href="CSS/FirstMeet.html"><img src="image/Fm.jpg" height="100" width="200"></a>
+        </div>
         </div>
         <div class="image-right">
+            <img src="image/S__3153924.jpg" width="200" alt="image/S__3153924">
+            <br>
             <img src="image/S__3153925.jpg" width="200" alt="image/S__3153925">
         </div>
+        <center>
         <div class="container">
-        <div class="col">
             <h1>About myself</h1>
             <h3>เกิดที่จังหวัดอุตรดิตถ์<br>จบการศึกษาจากโรงเรียนอุตรดิตถ์<br>ISFP-T</h3>
             <h1>Likes and Dislikes</h1>
             <h3>ชอบเล่นเกม<br>ชอบแข่ง A-Math<br>ชอบกินอาหารทะเล<br>ไม่ชอบ<font color ="red"><strong>ทุเรียน</strong></font>คร้าบบบ</h3>
         </div>
         </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
         <h3>Video</h3>
         <div class="VDO-container">
         <video src="VDO/714665569.760169.mp4" controls>
         </div>
         </video>
         <br>
-        <a href="CSS/myAdvisor.html"><img src="image/Ad.jpg" width="100"></a>
-        <a href="CSS/myActivities.html"><img src="image/Ac.jpg" width="100"></a>
         </center>
         <div align="right">
         <div class="text-frame1">
         <h4 id="white">จัดทำโดยนายทัตต์ดนัย บุญเอม<br>ติดต่อผ่าน Email : Tatdanaiz@gmail.com<br>เบอร์โทร 0612679201</h4>    
         </div>
         </div>
-    </div>
     </body>
